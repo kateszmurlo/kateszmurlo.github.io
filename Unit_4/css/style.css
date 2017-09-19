@@ -36,9 +36,9 @@ body {
 .text-wrapper h1{
 	text-align:center;
 	color: #ffffff;
-	font-size:5vw;
+	font-size:6vw;
 	font-family: 'Karla';
-	letter-spacing: 6px;
+	letter-spacing: 10px;
 }
 
 .text-wrapper p{
