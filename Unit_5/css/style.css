@@ -16,7 +16,7 @@ body {
 nav {
     text-align:right;
     color: #fff;
-    font-size:30px;
+    font-size:12px;
     font-family: 'Karla';
     background-color: #000000;
     border: 1px black solid;
@@ -109,7 +109,7 @@ footer {
 .description p{
     text-align:center;
     color: #000;
-    font-size:25px;
+    font-size:16px;
     font-family: 'Karla';
     
 }
