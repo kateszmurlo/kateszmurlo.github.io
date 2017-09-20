@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Karla);
 
 header{
-	background-color: #FFED74;
+	background-color: #ffffff;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -10,56 +10,80 @@ header{
 body {
 	width: 100%;
 	height: auto;
-	 margin-top: 80px;
+	 margin-top: 0px;
 	}
 
 nav {
     text-align:right;
-    color: #ffffff;
-    font-size:1.7vw;
+    color: #fff;
+    font-size:30px;
     font-family: 'Karla';
-    background-color: #E8C66A;
+    background-color: #000000;
     border: 1px black solid;
     padding: 60px;
 }
+
+a {
+  color: #fff;
+  text-decoration: none;  
+}
+
+
+
+
 aside {
-    background-color: #FFC675;
+    background-color: #ffffff;
     border: 1px black solid;
-    padding: 200px;
+    padding: 199px;
 }
 article {
-    background-color: #E89C6C;
+    background-color: #ffffff;
     border: 1px black solid;
     padding: 120px;
+    height: auto;
+    position: static;
 }
 
 footer {
-    background-color: #FF957E;
+    background-color: #000000;
     border: 1px black solid;
     padding: 20px;
+    text-align: center;
+     color: #ffffff;
+    font-size:20px;
+    font-family: 'Karla';
 }
 
+
+
+
+
 .wrapper {
-    background-color: #FFE2B8;
+    background-color: #fff;
     border: 1px black solid;
-    padding: 20px;
+    padding: 0px;
     width: auto;
     margin: 0;
 }
 
 .wrapper img{
     width:100%;
+    margin: 0;
+
+
+
 }
 
 .text-wrapper {
     width:100%;
     position: relative;
     margin-top: -50%;
+    height: auto;
 }
 .text-wrapper h1{
     text-align:center;
     color: #ffffff;
-    font-size:6vw;
+    font-size:95px;
     font-family: 'Karla';
     letter-spacing: 10px;
 }
@@ -67,7 +91,7 @@ footer {
 .text-wrapper p{
     text-align:center;
     color: #ffffff;
-    font-size:1.7vw;
+    font-size:30px;
     font-family: 'Karla';
     letter-spacing: 2px;
 
@@ -77,15 +101,15 @@ footer {
 
 .description h2{
     text-align:center;
-    color: #ffffff;
-    font-size:4vw;
+    color: #000;
+    font-size:50px;
     font-family: 'Karla';
     letter-spacing: 2px;
 }
 .description p{
     text-align:center;
-    color: #ffffff;
-    font-size:1.5vw;
+    color: #000;
+    font-size:25px;
     font-family: 'Karla';
     
 }
