@@ -1,5 +1,5 @@
 
-
+@import url(https://fonts.googleapis.com/css?family=Karla);
 
 header{
 	background-color: #FFED74;
@@ -10,23 +10,27 @@ header{
 body {
 	width: 100%;
 	height: auto;
-	 margin-top:80px;
+	 margin-top: 80px;
 	}
 
 nav {
+    text-align:right;
+    color: #ffffff;
+    font-size:1.7vw;
+    font-family: 'Karla';
     background-color: #E8C66A;
     border: 1px black solid;
-    padding: 20px;
+    padding: 60px;
 }
 aside {
     background-color: #FFC675;
     border: 1px black solid;
-    padding: 20px;
+    padding: 200px;
 }
 article {
     background-color: #E89C6C;
     border: 1px black solid;
-    padding: 20px;
+    padding: 120px;
 }
 
 footer {
@@ -39,4 +43,49 @@ footer {
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
+    width: auto;
+    margin: 0;
+}
+
+.wrapper img{
+    width:100%;
+}
+
+.text-wrapper {
+    width:100%;
+    position: relative;
+    margin-top: -50%;
+}
+.text-wrapper h1{
+    text-align:center;
+    color: #ffffff;
+    font-size:6vw;
+    font-family: 'Karla';
+    letter-spacing: 10px;
+}
+
+.text-wrapper p{
+    text-align:center;
+    color: #ffffff;
+    font-size:1.7vw;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+
+}
+
+
+
+.description h2{
+    text-align:center;
+    color: #ffffff;
+    font-size:4vw;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+}
+.description p{
+    text-align:center;
+    color: #ffffff;
+    font-size:1.5vw;
+    font-family: 'Karla';
+    
 }
