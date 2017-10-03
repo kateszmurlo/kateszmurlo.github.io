@@ -30,8 +30,9 @@ a {
 }
 
 a:hover { 
-background-color: #222; 
-color: white;}
+    background-color: #222; 
+    color: white;
+}
 
 
 
@@ -175,6 +176,17 @@ li {
     position: static;
     letter-spacing: 2px;
     
+}
+
+.row {
+    text-align: center;
+}
+.col-3 {
+    width: 30%;
+    display: inline-block;
+    height: 200px;
+
+    vertical-align: top;
 }
 
 /* last block with three column*/
