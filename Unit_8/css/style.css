@@ -1,0 +1,299 @@
+
+@import url(https://fonts.googleapis.com/css?family=Karla);
+
+header{
+	background-color: #ffffff;
+
+	padding: 20px;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	 margin-top: 0px;
+	}
+
+nav {
+
+    font-size: 1em;
+    font-family: 'Karla';
+
+    padding: 60px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;  
+  display:block;
+  float: right;
+  padding: 1.5em;
+
+}
+
+a:hover { 
+    background-color: #222; 
+    color: white;
+}
+
+
+
+
+aside {
+
+    border: 1px black solid;
+    padding: 20em;
+}
+article {
+
+
+    padding: 3em;
+    height: auto;
+    position: static;
+}
+
+footer {
+    background-color: #000000;
+    padding: 3em;
+    text-align: center;
+     color: #ffffff;
+    font-size:1em;
+            height: 1em;
+    font-family: 'Karla';
+}
+
+
+
+
+
+.wrapper {
+    background-color: #fff;
+
+    padding: 0px;
+    width: auto;
+    margin: 0;
+}
+
+.wrapper img{
+    width:100%;
+    margin: 0;
+        height: auto;
+    position: static;
+
+
+
+}
+
+
+/* block section light*/
+
+.description h2{
+    text-align:center;
+    color: #000;
+    font-size: 3em;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+}
+
+
+.description h3{
+    text-align:center;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+}
+
+.description p{
+    text-align:center;
+    color: #000;
+    font-size: .8em;
+    font-family: 'Karla';
+    
+}
+/*block section dark*/
+
+#description2 h2 {
+    text-align:center;
+    color: #fff;
+    font-size:3em;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+}
+#description2 h3 {
+    text-align:center;
+    font-size:1em;
+        color: #fff;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+}
+
+#description2 p {
+    text-align:center;
+     color: #fff;
+    font-size: 1em;
+    font-family: 'Karla';
+}
+
+#block_three {
+    background-color: #222;
+    padding: 1em;
+
+
+/* section with grid */
+}
+#three_column {
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+
+}
+
+li {
+  float: right;
+  width: 50%;
+  height: 10em;
+  outline: .4em solid #000;
+  text-align: center;
+  line-height: 10em; 
+  color: #000;
+
+  background: #fff;
+      font-family: 'Karla';
+}
+
+#center {
+    background-color: #000;
+    padding: 70px;
+    float: center;
+    width:80%; 
+      height: 20em;
+}
+#center h2{
+    text-align:center;
+    color: #fff;
+    font-family: 'Karla';
+    font-size:3em;
+    height: auto;
+    position: static;
+    letter-spacing: 2px;
+    
+}
+
+.row {
+    text-align: center;
+}
+.col-3 {
+    width: 30%;
+    display: inline-block;
+    height: 20em;
+
+    vertical-align: top;
+}
+
+/* last block with three column*/
+
+.column {
+    float: left;
+      background-color: #000;
+    height: 15em;
+    padding: 1em;
+    width: 30%;
+    margin: 2;
+        display: block;
+
+}
+
+#column1 h2{
+
+  color: #fff;
+      font-family: 'Karla';
+    font-size:1.5em;
+}
+
+#column1 p{
+
+  color: #fff;
+      font-family: 'Karla';
+    font-size:.7em;
+}
+
+#column2 h2{
+
+    color: #fff;
+        font-family: 'Karla';
+    font-size:1.5em;
+}
+#column2 p{
+
+    color: #fff;
+        font-family: 'Karla';
+    font-size:.7em;
+}
+
+#column3 h2{
+
+    color: #fff;
+        font-family: 'Karla';
+    font-size:1.5em;
+}
+
+
+#column3 p{
+
+    color: #fff;
+        font-family: 'Karla';
+    font-size:.7em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#container {
+    margin:auto;
+    width: auto;
+    background-color: #000;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+    h1, nav {
+     display: block;
+     text-align: center;
+
+    }
+
+    nav a {
+     margin: 0 1em 1em;
+    }
+
+
+
+a {
+    width: 80%;
+
+}
+
+    #center {
+
+        padding: .5em;
+    }
+
+
+
+
+.column {
+        width: 25%;
+        padding: 1em;
+}
+
+}
+
+
