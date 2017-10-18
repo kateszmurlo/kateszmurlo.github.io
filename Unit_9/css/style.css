@@ -1,0 +1,375 @@
+
+@import url(https://fonts.googleapis.com/css?family=Karla);
+
+header{
+	background-color: #ffffff;
+
+	padding: 30px;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	 margin-top: 0px;
+	}
+
+nav {
+
+    font-size: 1em;
+    font-family: 'Karla';
+
+    padding: 5em;
+}
+
+.logo img{
+        width:30%;
+        height: auto;
+        float:left;
+    }
+.logo img:hover { 
+    background-color: #fff; 
+    color: white;
+    opacity: .6;
+}
+a {
+  color: #000;
+  text-decoration: none;  
+  display:block;
+  float: right;
+  padding: 1.5em;
+
+}
+
+a:hover { 
+    background-color: #222; 
+    color: white;
+}
+
+
+article {
+    padding: 4em;
+    height: auto;
+    position: static;
+    width:90%;
+    display: inline-block;
+}
+
+footer {
+    background-color: #000000;
+    padding: 3em;
+    text-align: center;
+     color: #ffffff;
+    font-size:1em;
+            height: 1em;
+    font-family: 'Karla';
+}
+
+
+
+/* Main Image */
+
+.wrapper {
+    background-color: #fff;
+
+    padding: 0px;
+    width: auto;
+    margin: 0;
+}
+
+.wrapper img{
+    width:100%;
+    margin: 0;
+        height: auto;
+
+
+
+
+}
+
+
+/* Experience Section */
+
+#two {
+    /* inset shadow for visual aid only: allow to easily see the div boundaries */
+    font-size: 1em;
+    font-family: 'Karla';
+
+}
+
+#two h3{
+    text-align:left;
+}
+#contentBox1 {
+ 
+    width: 90%;
+    display: inline-block;
+    padding-left:6em;
+
+}
+
+#contentBox1 .column {
+    float: left;
+    padding:auto;
+    width: 33%;
+}
+
+
+/* About Section */
+.description h2{
+    text-align:center;
+    color: #000;
+    font-size: 3em;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+}
+.description h3{
+    text-align:center;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+}
+
+.description p{
+    text-align:center;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Karla';
+    
+}
+
+}
+/*block section that are black*/
+
+#description2 h2 {
+    text-align:center;
+    color: #fff;
+    font-size:3em;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+}
+#description2 h3 {
+    text-align:center;
+    font-size:1em;
+    color: #fff;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+}
+
+#description2 p {
+    text-align:center;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Karla';
+}
+
+/* Skills Section */
+
+#block_three {
+    background-color: #eacdcf;
+}
+#block_three h2 {
+    text-align:center;
+    color: #222;
+    font-size:3em;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+
+}
+#block_three p {
+        color: #222;
+}
+
+.col-4 {
+  float: none;
+  width: 24%;
+  height: 8em;
+  display: inline-block;
+  outline: .4em solid  #eacdcf;
+  text-align: center;
+  line-height: 8em; 
+  color: #000;
+  background: #fff;
+  font-family: 'Karla';
+  font-size: 1.5em;
+
+
+}
+
+
+
+/* Portfolio Section */
+.row {
+    background-color:  #222;
+    color: #000;
+    width: 100%;
+    padding: 0px;
+    height: auto;
+
+}
+
+#center h2{
+    text-align:center;
+    color: #fff;
+    font-family: 'Karla';
+    font-size:50px;
+    height: auto;
+    position: static;
+    letter-spacing: 2px;
+    
+
+}
+.col-2 {
+
+  float: right;
+  width: 30%;
+  height: 10em;
+  display: inline-block;
+  outline: .4em solid  #222;
+  text-align: center;
+  line-height: 10em; 
+  color: #000;
+  background: #fff;
+  font-family: 'Karla';
+
+ 
+
+
+}
+.col-3 {
+  float: none;
+  width: 31%;
+  height: 14em;
+  display: inline-block;
+
+
+
+}
+.col-3 img{
+    width:100%;
+    height: none;
+    display: inline-block;
+    outline: .4em solid  #222;
+
+}
+.col-3 img:hover { 
+    background-color: #fff; 
+    color: white;
+    opacity: .6;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #222; /* Gray border */
+    border-radius: 1px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #d3d3d3;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+
+}
+
+/* Mobile size */
+@media only screen and (max-width: 480px) {
+.logo img{
+        width:220px;
+    }
+
+    h1, nav {
+     display: block;
+     text-align: center;
+
+    }
+
+    nav a {
+     margin: 0 1em 1em;
+    }
+
+
+
+    a {
+        width: 80%;
+
+}
+
+    #center {
+
+        padding: 2em;
+    }
+
+
+
+
+.column {
+        width: 25%;
+        padding: 2em;
+}
+
+article {
+
+
+    padding: 1em;
+    width: 90%;
+}
+
+
+.col-4 {
+  float: center;
+  width: 45%;
+  height: 10em;
+  display: inline-block;
+  outline: .4em solid  #222;
+  text-align: center;
+  line-height: 10em; 
+  color: #000;
+  background: #fff;
+  font-family: 'Karla';
+}
+
+#contentBox1 {
+        float: center;
+font-size:.9em;
+    display:block;
+    padding:5em;
+    width: 100%;
+
+}
+.column {
+     margin: 0 1em 1em;
+       text-align: center;
+}
+.column h3{
+    text-align:center;
+}
+
